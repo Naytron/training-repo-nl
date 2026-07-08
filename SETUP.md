@@ -134,13 +134,13 @@ npm --version
 
 Open VS Code, click the **Extensions** icon on the left sidebar (or press `Ctrl+Shift+X`), then search for and install each of these:
 
-| Extension                      | Publisher | What it does                                   |
-| ------------------------------ | --------- | ---------------------------------------------- |
+| Extension                      | Publisher | What it does                                                   |
+| ------------------------------ | --------- | -------------------------------------------------------------- |
 | **GitHub Pull Requests**       | GitHub    | _(Recommended)_ Review and merge pull requests inside VS Code. |
-| **GitHub Actions**             | GitHub    | _(Recommended)_ Write and watch automated workflows. |
-| **GitLens — Git supercharged** | GitKraken | _(Optional)_ See who changed each line and when. |
-| **YAML**                       | Red Hat   | _(Optional)_ Helps you edit workflow files.    |
-| **Markdown All in One**        | Yu Zhang  | _(Optional)_ Nicer editing for READMEs and PR descriptions. |
+| **GitHub Actions**             | GitHub    | _(Recommended)_ Write and watch automated workflows.           |
+| **GitLens — Git supercharged** | GitKraken | _(Optional)_ See who changed each line and when.               |
+| **YAML**                       | Red Hat   | _(Optional)_ Helps you edit workflow files.                    |
+| **Markdown All in One**        | Yu Zhang  | _(Optional)_ Nicer editing for READMEs and PR descriptions.    |
 
 **Faster option:** paste all of these into a terminal to install them at once:
 
