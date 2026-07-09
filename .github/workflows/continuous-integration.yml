@@ -23,6 +23,24 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
+      # A `run:` step executes any command available on the runner's shell,
+      # exactly like typing it into a terminal. GitHub-hosted runners come with
+      # many CLIs pre-installed (git, node, npm, gh, jq, curl, docker, etc.), so
+      # you can call them directly from a step. The examples below only print
+      # information and do not change the build behavior.
+      - name: Environment Info (CLI examples)
+        run: |
+          # Print tool versions to confirm they're on the PATH
+          node --version
+          npm --version
+          git --version
+          # Use the GitHub CLI (`gh`) to show details about this repo
+          gh --version
+          # Pipe JSON through `jq` to format it
+          echo '{"pipeline":"ci","ok":true}' | jq .
+          # Show the latest commit that triggered this run
+          git log -1 --oneline
+
       - name: Check Format
         run: npm run format:check
 
